@@ -8,7 +8,7 @@
 }
  :root{
     --primaryColor: hsl(94, 55%, 56%);
-    --hoverColor: hsl(93, 75%, 76%);
+    --hoverColor: black;
     --paleGreen: hsl(96, 75%, 89%);
     --whiteColor: hsl(0, 0%, 100%);
     --blackColor: hsl(0, 0%, 18%);
@@ -166,7 +166,7 @@
    
             &:hover{
                background: var(--hoverColor);
-               color: var(--blackColor);
+               color: var(--whiteColor);
             }
          }
       }
@@ -230,7 +230,7 @@
             padding:.8rem;
             background: var(--inputColor);
             border-radius: 10px;
-            color: var(--whiteColor);
+            color: var(--greyText);
             align-items: center;
             margin: auto;
             justify-content: center;
@@ -246,10 +246,10 @@
 
             &:hover{
                background: var(--hoverColor);
-               color: var(--blackColor);
+               color: var(--whiteColor);
 
                .icon{
-                  color: var(--blackColor);
+                  color: var(--whiteColor);
                   transform: translateX(5px);
                }
             }
